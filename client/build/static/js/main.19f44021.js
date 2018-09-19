@@ -81,7 +81,7 @@ if (true) {
 /* 1 */
 /***/ (function(module, exports) {
 
-throw new Error("Module parse failed: /Users/terminal/Desktop/newDash/node_modules/mongoose/lib/utils.js Missing catch or finally clause (234:4)\nYou may need an appropriate loader to handle this file type.\n| exports.promiseOrCallback = function promiseOrCallback( callback, fn ) {\n|   if ( typeof callback === 'function' ) {\n|     try {\n|       return fn( callback );\n|     } }");
+throw new Error("Module parse failed: /Users/terminal/Desktop/newDash/node_modules/mongoose/lib/utils.js 'return' outside of function (240:2)\nYou may need an appropriate loader to handle this file type.\n|   const Promise = PromiseProvider.get();\n| \n|   return new Promise( ( resolve, reject ) => {\n|     fn( function ( error, res ) {\n|       if ( error != null ) {");
 
 /***/ }),
 /* 2 */
@@ -51321,4 +51321,4 @@ registerValidSW(swUrl);}}).catch(function(){console.log("No internet connection 
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=main.a7cd4d64.js.map
+//# sourceMappingURL=main.19f44021.js.map
