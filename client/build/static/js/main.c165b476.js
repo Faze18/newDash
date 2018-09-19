@@ -98,9 +98,9 @@ const mpath = __webpack_require__(61);
 const ms = __webpack_require__(107);
 const Buffer = __webpack_require__(60).Buffer;
 
-let MongooseBuffer;
-let MongooseArray;
-let Document;
+var MongooseBuffer;
+var MongooseArray;
+var Document;
 
 /*!
  * Produces a collection name from model `name`. By default, just returns
@@ -52225,4 +52225,4 @@ registerValidSW(swUrl);}}).catch(function(){console.log("No internet connection 
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=main.13a7598f.js.map
+//# sourceMappingURL=main.c165b476.js.map
