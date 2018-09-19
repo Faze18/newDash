@@ -1,0 +1,47 @@
+
+.container{
+    position: absolute;
+    left:14%;
+    display:flex;
+    width:80vw;
+    /* height:80vw; */
+    flex-wrap:wrap;
+  
+  }
+.calendarContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+
+    }
+  
+.calendarDay{
+    display: flex;
+    border:  solid #87bdd8;
+    border-width: 2px 0px 0px .5px;
+    margin:2px;
+
+    /* padding: 1px; */
+    width: 10vw;
+    height: 80px;
+    border-radius: 10%;
+    
+    }
+.day{
+    margin:2px;
+
+    border: solid #4aa1cd;
+    border-width: 5px 1px 5px 1px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px slategrey; */
+    align-items: center;
+    /* padding: 1px; */
+    width: 10vw;
+    height: 2em;
+    align-self: flex-end;
+    }
+    .scroll::-webkit-scrollbar {
+        display: none;
+      }
