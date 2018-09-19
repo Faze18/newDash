@@ -88,7 +88,7 @@ componentDidMoun(){
     } else {
       fbContent = (
         <FacebookLogin
-          appId="298031900976142"
+          appId="489713498199194"
           autoLoad={true}
           fields="name,email,picture"
           onClick={this.componentClicked}
